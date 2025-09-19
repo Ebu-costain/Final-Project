@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { Mail, Lock, KeyRound } from "lucide-react"
 
 const Login = () => {
@@ -177,10 +177,11 @@ const Login = () => {
             </button>
               <p className="text-center text-gray-600 text-sm mt-4">
               Don’t have an account?{" "}
-              <span className="text-amber-600 font-semibold cursor-pointer hover:underline">
-                Sign up here
+              <Link to="/register ">
+                <span className="text-amber-600 font-semibold cursor-pointer hover:underline">
+                  Sign up here
                 </span>
-              
+              </Link>
             </p>
 
           </form>

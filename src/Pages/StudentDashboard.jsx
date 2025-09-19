@@ -124,12 +124,7 @@ const StudentDashboard = () => {
             >
               <User className="w-5 h-5" /> Profile
             </Link>
-            <Link
-              to="/courses"
-              className="flex items-center gap-2 text-black hover:text-blue-600"
-            >
-              <Book className="w-5 h-5" /> Courses
-            </Link>
+            
           </nav>
         </div>
         <button
