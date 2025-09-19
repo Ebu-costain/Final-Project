@@ -184,7 +184,7 @@ const ContactUs = () => {
               className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-            >
+            > 
               <Send size={18} /> Send Message
             </motion.button>
           </motion.form>

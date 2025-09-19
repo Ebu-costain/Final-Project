@@ -14,7 +14,7 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl font-extrabold text-blue-600 tracking-wide">
-            EduManage
+            EduManager
           </h2>
           <p className="mt-3 text-gray-400 max-w-xs">
             Simplifying education management with smart tools and intuitive design.
@@ -93,7 +93,7 @@ export default function Footer() {
         transition={{ duration: 0.8, delay: 0.8 }}
         className="mt-10 border-t border-gray-800 pt-6 text-center text-gray-500 text-sm"
       >
-        © {new Date().getFullYear()} EduManage. All rights reserved.
+        © {new Date().getFullYear()} EduManager. All rights reserved.
       </motion.div>
     </footer>
   );
