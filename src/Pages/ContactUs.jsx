@@ -7,7 +7,7 @@ const ContactUs = () => {
     <div className="relative overflow-hidden">
       {/* Background Effects */}
       <motion.div
-        className="absolute inset-0 bg-gradient-to-tr from-green-300 via-blue-50 to-purple-700 "
+        className="absolute inset-0 bg-gradient-to-tr from-green-300 via-blue-50 to-purple-300 "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.2 }}
@@ -47,7 +47,7 @@ const ContactUs = () => {
         {/* Hero Section */}
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <motion.h2
-            className="text-3xl md:text-4xl font-bold text-gray-900"
+            className="text-3xl md:text-4xl font-bold text-black"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
@@ -56,7 +56,7 @@ const ContactUs = () => {
             Let’s Start a Conversation
           </motion.h2>
           <motion.p
-            className="text-gray-600 mt-4 text-lg"
+            className="text-pink-600 mt-4 text-lg"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.7 }}
@@ -113,7 +113,7 @@ const ContactUs = () => {
                 <MapPin className="text-purple-600 w-7 h-7" />
                 <div>
                   <p className="font-semibold">Visit Us</p>
-                  <span className="text-gray-600">
+                  <span className="text-black">
                     Digital Fortress Akuwonjo
                   </span>
                 </div>
@@ -199,8 +199,8 @@ const ContactUs = () => {
           viewport={{ once: true }}
         >
           <div className="mb-4 text-center pt-6">
-            <h3 className="text-2xl font-semibold text-gray-800">Our Location</h3>
-            <p className="text-gray-600">Find us at Digital Fortress Akuwonjo</p>
+            <h3 className="text-2xl font-semibold text-green-600">Our Location</h3>
+            <p className="text-black">Find us at Digital Fortress Akuwonjo</p>
           </div>
           <iframe
             title="Google Map"

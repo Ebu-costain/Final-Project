@@ -47,7 +47,7 @@ const AboutUs = () => {
     <div className="relative overflow-hidden">
       {/* Animated Background */}
       <motion.div
-        className="absolute inset-0 bg-gradient-to-tr from-green-300 via-blue-50 to-purple-700"
+        className="absolute inset-0 bg-gradient-to-tr from-green-300 via-blue-50 to-purple-300"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
